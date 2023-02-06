@@ -1,5 +1,6 @@
 <template>
-    <div>Это тестовое сообщения</div>
+    <!-- Шапка сайта -->
+    <TheHeader/>
 </template>
 
 
