@@ -1,8 +1,7 @@
 {
   "private": true,
   "scripts": {
-
-    "build": "next generate --output public",
+    "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
