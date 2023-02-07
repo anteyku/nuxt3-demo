@@ -26,9 +26,9 @@
                     class="swiper"
                   >
                     <swiper-slide>
-                       <div class="we__swiper__swiper__video">
-                        <iframe height="400" src="https://www.youtube.com/embed/1AZi4BBHAfA" title="FLYING OVER MALDIVES 4K Video UHD - Relaxing Music With Beautiful Nature Scenery For Deep Relaxation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                       </div>
+                       
+                        VIDEO
+                       
                     </swiper-slide>
                     <swiper-slide>Slide 2</swiper-slide><swiper-slide>Slide 3</swiper-slide>
                     <swiper-slide>Slide 4</swiper-slide><swiper-slide>Slide 5</swiper-slide>
