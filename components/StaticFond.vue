@@ -12,7 +12,7 @@
                 <div class="col-lg-3">
                     <div class="static__block__mini-block">
                         <div class="static__block__img">
-                            <nuxt-img src="/images/location-marker.png" loading="lazy" />
+                            <nuxt-img src="/images/location-marker.webp" loading="lazy" />
                         </div>
                         <div class="static__block__title">
                             2000+
