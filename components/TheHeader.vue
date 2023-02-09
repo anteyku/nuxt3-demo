@@ -20,8 +20,11 @@
                         
                          
                         
-                        
+                        <img src="/images/logo.webp"  alt="картинка">
+                        <!--
                             <nuxt-img src="/images/logo.webp" loading="lazy" />
+                        -->
+                            
                     
                         
                     </div>

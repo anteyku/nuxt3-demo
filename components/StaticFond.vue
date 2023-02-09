@@ -12,8 +12,11 @@
                 <div class="col-lg-3">
                     <div class="static__block__mini-block">
                         <div class="static__block__img">
-                            
-                                  <nuxt-img src="/images/location-marker.webp" loading="lazy" />
+                            <img src="/images/location-marker.webp" alt="картинка">
+                            <!--
+                                <nuxt-img src="/images/location-marker.webp" loading="lazy" />
+                            -->
+                                  
                         
                           
                         </div>
