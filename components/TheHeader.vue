@@ -18,11 +18,11 @@
                 <div class="col-lg-4 offset-lg-4">
                     <div class="header__con__logo">
                         
-                            <img src="~/assets/images/logo.webp" />
+                         
                         
-                        <!--
+                        
                             <nuxt-img src="/images/logo.webp" loading="lazy" />
-                        -->
+                    
                         
                     </div>
                 </div>

@@ -26,9 +26,7 @@
                     class="swiper"
                   >
                     <swiper-slide>
-                       
-                        VIDEO
-                       
+                      ВИДЕО
                     </swiper-slide>
                     <swiper-slide>Slide 2</swiper-slide><swiper-slide>Slide 3</swiper-slide>
                     <swiper-slide>Slide 4</swiper-slide><swiper-slide>Slide 5</swiper-slide>
@@ -39,6 +37,7 @@
             </div>
         </div>
     </div>
+  
 </template>
 
 
@@ -98,7 +97,7 @@ import { loadScript } from "vue-plugin-load-script";
             bodyAttrs: {
                 class: 'test'
             },
-            script: [ { src: 'https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.2.0/lite-yt-embed.min.js', async: true } ]
+            script: [ { src: 'https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.2.0/lite-yt-embed.min.js' } ]
         })
         */
 
@@ -153,6 +152,22 @@ import { loadScript } from "vue-plugin-load-script";
                   -webkit-align-items: center;
                   align-items: center;
                //   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+
+
+               .we__swiper__img{
+                  width: 90%;
+                  height: 100%;
+                  lite-youtube{
+                    margin: 0 auto;
+                    height: 100%;
+                    width: auto;
+                  }
+                  img{
+                    height: 100%;
+                    width: auto;
+                    margin: 0 auto;
+                  }
+                }               
 
               
               
