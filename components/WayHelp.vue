@@ -12,9 +12,9 @@
                 <div class="col-lg-4">
                     <div class="help__blocks__mini-block">
                         <div class="help__blocks__mini-block__img">
-                            <!--
+                            
                                 <nuxt-img src="/images/clothes.webp" loading="lazy" />
-                            -->
+                        
                             
                         </div>
                         <div class="help__blocks__mini-block__title">
