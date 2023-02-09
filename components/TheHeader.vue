@@ -21,7 +21,7 @@
                          
                         
                         
-                            <nuxt-img src="/images/logo.webp" loading="lazy" />
+                            <nuxt-img src="/images/logo.webp"  />
                     
                         
                     </div>
