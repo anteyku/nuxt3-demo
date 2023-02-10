@@ -7,6 +7,8 @@
     <StaticFond/>
     <!-- Яку допомогу ми надаэмо ? -->
     <WayHelp/>
+    <!-- Реквизыти для допомоги -->
+    <TheRequisites/>
 </template>
 
 
