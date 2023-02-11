@@ -12,7 +12,10 @@
                 <div class="col-lg-3">
                     <div class="grati__blocks__mini-block">
                         <div class="grati__blocks__mini-block__img" @click="modalImg(`47299.jpg`)">
-                            <nuxt-img src="/images/47299.jpg" loading="lazy" />
+                            <!--
+                                 <nuxt-img src="/images/47299.jpg" loading="lazy" />
+                            -->
+                            <img src="/images/47299.jpg" alt="модальная картинка">
                         </div>
                         <div class="grati__blocks__mini-block__title">
                             ЗА ДОПОМОГУ
