@@ -9,6 +9,10 @@
     <WayHelp/>
     <!-- Реквизыти для допомоги -->
     <TheRequisites/>
+    <!-- Страница благодарности -->
+    <TheGratitude/>
+    <!-- Проекты -->
+    <TheProject/>
 </template>
 
 
