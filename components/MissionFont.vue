@@ -16,23 +16,40 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 we__swiper">
-                    <swiper
-                    :cssMode="true"
-                    :navigation="true"
-                    :pagination="true"
-                    :mousewheel="true"
-                    :keyboard="true"
-                    :modules="modules"
-                    class="swiper"
-                  >
-                    <swiper-slide>
-                      ВИДЕО
-                    </swiper-slide>
-                    <swiper-slide>Slide 2</swiper-slide><swiper-slide>Slide 3</swiper-slide>
-                    <swiper-slide>Slide 4</swiper-slide><swiper-slide>Slide 5</swiper-slide>
-                    <swiper-slide>Slide 6</swiper-slide><swiper-slide>Slide 7</swiper-slide>
-                    <swiper-slide>Slide 8</swiper-slide><swiper-slide>Slide 9</swiper-slide>
-                  </swiper>
+
+                  
+                  <Swiper
+                  :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperPagination, SwiperNavigation]"
+                  :navigation="true"
+                  :pagination="true"
+                  :slides-per-view="1"
+                  :loop="true"
+                  :effect="'creative'"
+                  :autoplay="{
+                  delay: 8000,
+                  disableOnInteraction: true,
+                  }"
+                  :creative-effect="{
+                  prev: {
+                      shadow: false,
+                      translate: ['-20%', 0, -1],
+                  },
+                  next: {
+                      translate: ['100%', 0, 0],
+                  },
+                  }"
+                  class="swiper"
+              >
+                  <SwiperSlide>
+                    ВИДЕО
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    2
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    3
+                  </SwiperSlide>
+              </Swiper>
                 </div>
             </div>
         </div>
@@ -62,28 +79,6 @@ import { loadScript } from "vue-plugin-load-script";
 */
 
 
-
-
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from 'swiper/vue';
-
-  // Import Swiper styles
-  import 'swiper/css';
-
-  import 'swiper/css/navigation';
-  import 'swiper/css/pagination';
-
-
-  // import required modules
-  import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper';
-
-  export default {
-    components: {
-      Swiper,
-      SwiperSlide,
-    },
-    setup() {
-
         /*
         useHead({   
         // Язык страницы
@@ -101,12 +96,7 @@ import { loadScript } from "vue-plugin-load-script";
         })
         */
 
-
-      return {
-        modules: [Navigation, Pagination, Mousewheel, Keyboard],
-      };
-    }
-  };
+ 
 </script>
 
 

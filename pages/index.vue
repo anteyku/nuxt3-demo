@@ -13,6 +13,20 @@
     <TheGratitude/>
     <!-- Проекты -->
     <TheProject/>
+    <!-- Телеграм канал -->
+    <TelegramChanel/>
+    <!-- Видео звит -->
+    <TheReport/>
+    <!-- Партнеры -->
+    <ThePartners/>
+    <!-- Обратная связь -->
+    <FeedBack/>
+    <!-- Як откримати допомогу -->
+    <HowHelp/>
+    <!-- Наша команда -->
+    <OurComand/>
+    <!-- Сканеры документов -->
+    <ScanDoc/>
 </template>
 
 
