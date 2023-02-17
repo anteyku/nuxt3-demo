@@ -27,6 +27,9 @@
     <OurComand/>
     <!-- Сканеры документов -->
     <ScanDoc/>
+    <!-- Наш мерч -->
+    <TheMerch/>
+    
 </template>
 
 

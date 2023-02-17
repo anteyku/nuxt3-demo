@@ -8,12 +8,15 @@
   <div>    
     <NuxtPage />
   </div>
+
+  <!-- Подвал сайта -->
+  <TheFooter/>
   
 </template>
 
 <style>
-  body{
-    height: 10000px;
+  a{
+    color: white;
   }
 </style>
 

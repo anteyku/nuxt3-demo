@@ -15,23 +15,27 @@
                             </div>
                         </div>
                         <div class="col-lg-2 offset-lg-1">
-                            <div class="header__background__page active">
-                                ГОЛОВНА
+                            <div class="header__background__page">
+                                <NuxtLink v-if="this.$route.path == `/`" to="/" class="active">ГОЛОВНА</NuxtLink>
+                                <NuxtLink v-else to="/">ГОЛОВНА</NuxtLink>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="header__background__page">
-                                ДОКУМЕНТИ ТА ЗВІТ
+                                <NuxtLink v-if="this.$route.path == `/doc`" to="/doc" class="active">ДОКУМЕНТИ ТА ЗВІТ</NuxtLink>
+                                <NuxtLink v-else to="/doc">ДОКУМЕНТИ ТА ЗВІТ</NuxtLink>
                             </div>                           
                         </div>
                         <div class="col-lg-2">
                             <div class="header__background__page">
-                                НАША РОБОТА
+                                <NuxtLink v-if="this.$route.path == `/job`" to="/job" class="active">НАША РОБОТА</NuxtLink>
+                                <NuxtLink v-else to="/job">НАША РОБОТА</NuxtLink>
                             </div>                                 
                         </div>
                         <div class="col-lg-2">
                             <div class="header__background__page">
-                                КОНТАКТИ
+                                <NuxtLink v-if="this.$route.path == `/contact`" to="/contact" class="active">КОНТАКТИ</NuxtLink>
+                                <NuxtLink v-else to="/contact">КОНТАКТИ</NuxtLink>
                             </div>                                
                         </div>
                    </div>
@@ -43,6 +47,9 @@
 
 <script>
     export default {
+        mounted(){
+
+        },
         data(){
             return {
                 lang: `UK`
@@ -147,9 +154,13 @@
             padding-top: 9px;
             padding-bottom: 5px;
 
-            &:hover{
-                color:greenyellow;
+            a{
+                &:hover{
+                    color:greenyellow;
+                }
             }
+
+
         }
 
         .active{
