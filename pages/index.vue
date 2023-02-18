@@ -2,17 +2,26 @@
     <!-- Шапка сайта -->
     <TheHeader/>
     <!-- Слайдер с надписсю - "Миссия нашего фонда"-->
-    <MissionFont/>
+        <ClientOnly>
+            <MissionFont/>
+        </ClientOnly>
+    
     <!-- Статистика по фонду -->
     <StaticFond/>
     <!-- Яку допомогу ми надаэмо ? -->
     <WayHelp/>
     <!-- Реквизыти для допомоги -->
     <TheRequisites/>
+    <!-- Сбор средств на определенные вещи -->
+    <TheFundraising/>
     <!-- Страница благодарности -->
     <TheGratitude/>
     <!-- Проекты -->
-    <TheProject/>
+    <ClientOnly>
+        <TheProject/>
+    </ClientOnly>
+
+    
     <!-- Телеграм канал -->
     <TelegramChanel/>
     <!-- Видео звит -->

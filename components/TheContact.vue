@@ -85,7 +85,7 @@
         text-align: center;
 
         .contact__blocks{
-            margin: 123px;
+            margin-top: 123px;
             margin-bottom: 300px;
             .contact__blocks__mini-block{
                 margin-top: 20px;
@@ -100,6 +100,7 @@
                     font-size: 16px;
                     font-weight: 700;
                     margin-top: 16px;
+                    width: 100%;
                 }
                 .contact__blocks__mini-block__img{
                     img{

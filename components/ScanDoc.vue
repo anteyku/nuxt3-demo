@@ -11,11 +11,11 @@
             <div class="row grati__blocks">
                 <div class="col-lg-3">
                     <div class="grati__blocks__mini-block">
-                        <div class="grati__blocks__mini-block__img" @click="modalImg(`i.jpg`)">
+                        <div class="grati__blocks__mini-block__img" @click="modalImg(`i.png`)">
                             <!--
                                  <nuxt-img src="/images/47299.jpg" loading="lazy" />
                             -->
-                            <img src="/images/i.jpg" alt="сканер документа">
+                            <img src="/images/i.png" alt="сканер документа">
                         </div>
                     </div>
                 </div>

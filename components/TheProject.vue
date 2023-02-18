@@ -119,32 +119,7 @@
 
 <script>
 
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue';
 
-// Import Swiper styles
-import 'swiper/css';
-
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-
-// import required modules
-import { Navigation, Mousewheel, Keyboard } from 'swiper';
-
-export default {
-    components: {
-      Swiper,
-      SwiperSlide,
-    },
-    setup() {
-
-
-      return {
-        modules: [Navigation, Mousewheel, Keyboard],
-      };
-    }
-  };
 </script>
 
 <style lang="less">

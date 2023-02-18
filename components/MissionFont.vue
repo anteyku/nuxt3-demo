@@ -41,7 +41,11 @@
                   class="swiper"
               >
                   <SwiperSlide>
-                    ВИДЕО
+                    
+                  
+                      <LazyVideo message="https://www.youtube.com/watch?v=BfFK1oQaO80"/>
+                      
+                    
                   </SwiperSlide>
                   <SwiperSlide>
                     2
@@ -63,8 +67,15 @@
 
 <script>
 
+import LazyVideo from './LazyVideo.vue';
 
-    
+
+    export default {
+      components: {
+        LazyVideo     
+      }      
+    }
+
 
 /*
 import { loadScript } from "vue-plugin-load-script";
