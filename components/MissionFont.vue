@@ -41,17 +41,13 @@
                   class="swiper"
               >
                   <SwiperSlide>
-                    
-                  
                       <LazyVideo message="https://www.youtube.com/watch?v=BfFK1oQaO80"/>
-                      
-                    
                   </SwiperSlide>
                   <SwiperSlide>
-                    2
+                    <LazyVideo message="https://www.youtube.com/watch?v=GKz71gKNnjg"/>
                   </SwiperSlide>
                   <SwiperSlide>
-                    3
+                    <LazyVideo message="https://www.youtube.com/watch?v=sT9OdSqpdMc"/>
                   </SwiperSlide>
               </Swiper>
                 </div>

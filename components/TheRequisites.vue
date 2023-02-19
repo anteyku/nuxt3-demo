@@ -1,5 +1,5 @@
 <template>
-    <div class="requs">
+    <div class="requs" id="requs">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

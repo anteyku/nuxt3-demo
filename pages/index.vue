@@ -2,10 +2,9 @@
     <!-- Шапка сайта -->
     <TheHeader/>
     <!-- Слайдер с надписсю - "Миссия нашего фонда"-->
-        <ClientOnly>
-            <MissionFont/>
-        </ClientOnly>
-    
+    <ClientOnly>
+        <MissionFont/>
+    </ClientOnly>
     <!-- Статистика по фонду -->
     <StaticFond/>
     <!-- Яку допомогу ми надаэмо ? -->
@@ -20,12 +19,12 @@
     <ClientOnly>
         <TheProject/>
     </ClientOnly>
-
-    
     <!-- Телеграм канал -->
     <TelegramChanel/>
     <!-- Видео звит -->
-    <TheReport/>
+    <ClientOnly>
+        <TheReport/>
+    </ClientOnly>
     <!-- Партнеры -->
     <ThePartners/>
     <!-- Обратная связь -->

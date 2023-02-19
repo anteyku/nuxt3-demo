@@ -11,13 +11,23 @@
             <div class="row report__blocks">
                 <div class="col-lg-3">
                     <div class="report__blocks__mini-block">
-                        <iframe height="170" src="https://www.youtube.com/embed/Wh2ZnBphRE4" title="СПЯЩИЕ! Страшные Истории На Ночь" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <LazyVideo message="https://www.youtube.com/watch?v=BfFK1oQaO80"/>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<script>
+    import LazyVideo from './LazyVideo.vue';
+
+    export default {
+      components: {
+        LazyVideo     
+      }              
+    }
+</script>
 
 <style lang="less">
 

@@ -39,9 +39,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 offset-lg-4">
-                    <div class="header__con__button">
-                        ДОПОМОГТИ
-                    </div>
+                    
+                        <ClientOnly>
+                            <nuxt-link class="header__con__button" to="#requs" exact> ДОПОМОГТИ </nuxt-link>
+                        </ClientOnly>
+                    
                 </div>
             </div>
         </div>
@@ -89,6 +91,11 @@
                 font-size: 19px;
                 font-weight: 600;
                 cursor: pointer;
+                display: block;
+
+                a{
+                    color: #FFEB3B;
+                }
 
                 &:hover{
                     background-color: #0091EA;
