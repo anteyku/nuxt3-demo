@@ -1,10 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    css: [`bootstrap/dist/css/bootstrap-grid.min.css`, '~/assets/css/normalaiz.css', 'vant/lib/index.css'],
+    css: [`bootstrap/dist/css/bootstrap-grid.min.css`, '~/assets/css/normalaiz.css', 'vant/lib/index.css', `vue3-snackbar/dist/style.css`],
     modules: [`@nuxtjs/google-fonts`, '@nuxt/image-edge', 'nuxt-swiper'],
-    swiper: {
-       modules: ['navigation', 'pagination'], // all modules are imported by default
-    },
     googleFonts: {
       // Здесь пишем названияя шрифта и его ширину которую хотим подключить
       families: {

@@ -1,4 +1,9 @@
 <template>
+    <ClientOnly>
+        <teleport to="body">
+            <vue3-snackbar style="font-family: sans-serif" bottom left :duration="3000"></vue3-snackbar>
+        </teleport>
+    </ClientOnly>
     <!-- Шапка сайта -->
     <TheHeader/>
     <!-- Слайдер с надписсю - "Миссия нашего фонда"-->
@@ -39,6 +44,20 @@
     <TheMerch/>
     
 </template>
+
+<script setup>
+    useHead({   
+        // Язык страницы
+        htmlAttrs: {
+             lang: 'ua'
+        },
+        title: 'Благодійний фонд "У МАТУСІНИХ ДОЛОНЯХ"',
+        meta: [
+            { name: 'description', content: 'Місія фонду "У МАТУСІНИХ ДОЛОНЯХ" - допомогати з любов`ю матусям з дітьми, які опинилися у складних життєвих обставинах через війну ' },
+            { name: 'keywords', content: 'фонд допомоги, фонд допомоги дітям' },
+        ],
+    })
+</script>
 
 
 
